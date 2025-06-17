@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Institución XYZ</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, footer { background: #003366; color: white; padding: 10px 20px; }
+    nav a { margin: 0 10px; color: white; text-decoration: none; }
+    section { padding: 20px; }
+    h2 { color: #003366; }
+    .btn { background: #006699; color: white; padding: 8px 12px; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Institución XYZ</h1>
+  <nav>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#novedades">Novedades</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<section id="nosotros">
+  <h2>Acerca de la Institución</h2>
+  <p><strong>Misión:</strong> Brindar soluciones innovadoras accesibles a la comunidad.</p>
+  <p><strong>Visión:</strong> Ser líderes en el mercado nacional, ofreciendo excelencia.</p>
+</section>
+
+<section id="servicios">
+  <h2>Productos y Servicios</h2>
+  <ul>
+    <li>Consultoría profesional</li>
+    <li>Capacitaciones presenciales y en línea</li>
+  </ul>
+</section>
+
+<section id="novedades">
+  <h2>Novedades</h2>
+  <article>
+    <h3>Nuevo curso en línea disponible</h3>
+    <p>Visita nuestra sección de capacitaciones para conocer más.</p>
+  </article>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <form>
+    <label>Nombre:<br><input type="text" name="nombre"></label><br>
+    <label>Email:<br><input type="email" name="email"></label><br>
+    <label>Mensaje:<br><textarea name="mensaje"></textarea></label><br>
+    <button class="btn">Enviar</button>
+  </form>
+
+  <h3>Recomienda este sitio a un amigo</h3>
+  <form>
+    <label>Email del amigo:<br><input type="email" name="amigo"></label><br>
+    <button class="btn">Enviar recomendación</button>
+  </form>
+
+  <h3>Mapa del Sitio</h3>
+  <ul>
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#novedades">Novedades</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+
+  <p><button onclick="window.print()" class="btn">Versión Imprimible</button></p>
+</section>
+
+<footer>
+  <p>© 2025 Institución XYZ - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
